@@ -1,0 +1,71 @@
+[class*="col-"] {
+    width: 100%;
+    }
+    @media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 10px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+
+    .header {
+        padding: 30px;
+        height: 100px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: #ffffff;
+        background-image: url(img.hsum/img.hsumwoonplaats-min.jpg);
+        background-repeat:no-repeat;
+        background-position-x: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    .col-2{
+        background-color: rgb(149, 241, 241);
+        width: 300px;
+        height: 500px;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+
+    .col-9{
+        float: right;
+        background-color: cornflowerblue;
+        margin-top: 10px;
+        height: 500px;
+    }
+    .artimg{
+        float: right;
+        width: 275px;
+        padding-right: 10px;
+    
+    }
+    .artimg2{
+        float: right;
+        width: 275px;
+        padding-right: 10px;
+    }
+
+    .footer{
+        position: absolute;
+          width: 100%;
+          height: 150px;
+          background-color: rgb(29, 130, 167);
+          text-align: center;
+          color: #ffffff;
+          margin-top: 37%;
+          clear: both;
+    }
